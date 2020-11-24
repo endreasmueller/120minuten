@@ -1,0 +1,22 @@
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Quicksand Light'), local('Quicksand-Light'), url(https://web.archive.org/web/20150328233420im_/http://fonts.gstatic.com/s/quicksand/v5/qhfoJiLu10kFjChCCTvGlOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+/*
+playback timings (ms):
+  captures_list: 326.318
+  exclusion.robots: 0.16
+  exclusion.robots.policy: 0.146
+  RedisCDXSource: 9.58
+  esindex: 0.015
+  LoadShardBlock: 260.384 (3)
+  PetaboxLoader3.datanode: 5640.992 (4)
+  CDXLines.iter: 38.125 (3)
+  load_resource: 5422.482
+*/

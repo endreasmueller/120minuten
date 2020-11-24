@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://web.archive.org/web/20200208100546im_/https://fonts.gstatic.com/s/oswald/v30/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
+}
+
+
+/*
+playback timings (ms):
+  load_resource: 96.23
+  exclusion.robots: 0.208
+  exclusion.robots.policy: 0.194
+  esindex: 0.007
+  CDXLines.iter: 145.448 (3)
+  PetaboxLoader3.datanode: 1164.329 (7)
+  RedisCDXSource: 27.925
+  LoadShardBlock: 1441.602 (6)
+  PetaboxLoader3.resolve: 40.788
+*/

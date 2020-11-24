@@ -1,0 +1,27 @@
+/*
+Willkommen beim benutzerdefinierten CSS!
+
+CSS (Cascading Style Sheets) ist eine Art Code, der dem Browser sagt, wie
+eine Webseite dargestellt werden soll. Du kannst diese Kommentare löschen
+und mit deinen Anpassungen beginnen.
+
+Als Standard wird dein Stylesheet nach den Theme-Stylesheets geladen, das
+heißt, dass deine Regeln Vorrang haben und die Theme-CSS-Regeln
+überschreiben können. Schreibe einfach hier rein, was du ändern
+möchtest, du musst nicht den gesamten Stylesheet-Inhalt deines Themes
+kopieren.
+*/
+
+/*
+playback timings (ms):
+  esindex: 0.02
+  exclusion.robots.policy: 0.325
+  CDXLines.iter: 20.307 (3)
+  LoadShardBlock: 65.979 (3)
+  PetaboxLoader3.datanode: 97.445 (4)
+  RedisCDXSource: 84.461
+  PetaboxLoader3.resolve: 54.921
+  load_resource: 189.769
+  exclusion.robots: 0.341
+  captures_list: 175.182
+*/

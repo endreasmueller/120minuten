@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Quicksand Light'), local('Quicksand-Light'), url(https://web.archive.org/web/20150609225303im_/http://fonts.gstatic.com/s/quicksand/v5/qhfoJiLu10kFjChCCTvGlInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+
+
+/*
+playback timings (ms):
+  load_resource: 702.535
+  exclusion.robots: 0.207
+  exclusion.robots.policy: 0.192
+  CDXLines.iter: 28.131 (3)
+  PetaboxLoader3.datanode: 461.098 (4)
+  LoadShardBlock: 296.007 (3)
+  RedisCDXSource: 97.28
+  captures_list: 432.216
+  PetaboxLoader3.resolve: 495.076
+  esindex: 0.015
+*/

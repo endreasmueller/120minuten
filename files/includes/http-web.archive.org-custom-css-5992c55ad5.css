@@ -1,0 +1,583 @@
+/*
+Willkommen bei den Individuellen CSS
+
+Wie es funktioniert, steht unter http://wp.me/PEmnE-Bt
+*/
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/*.hentry {
+	width: 250px;
+	height: 250px;
+}
+
+.hentry.no-thumbnail {
+	border-radius: 185px;
+	width: 250px;
+	max-width: 250px;
+	height: 250px;
+	max-height: 250px;
+}
+
+*/
+/*Größe Kreise Suche/Archiv/Tags
+.page-header h1 {
+	width: 210px;
+	height: 180px;
+}
+
+*/
+/*macht Responsivität kaputt
+.site {
+	margin: 0 auto;
+	padding: 0 50px;
+	width: 900px;
+}
+
+*/
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', "Arial", sans-serif;
+	font-style: normal;
+	color: #444;
+}
+
+/*Textfarbe*/
+body {
+	color: #444;
+	font-family: 'Georgia', 'Oswald', "Arial", sans-serif;
+}
+
+/* Versuch Überschriften auf Startseite zu endern
+.rp-four-columns h2.entry-title {
+	font-size: 1.5em !important;
+	line-height: 150%;
+	font-family:'Georgia', times new roman !important;
+	color:#23ffff !important;
+}
+*/
+
+textarea {
+	font-family: 'Oswald', "Arial", sans-serif;
+}
+
+blockquote {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.site-title {
+	font-family: 'Oswald', "Arial", sans-serif !important;
+	font-style: normal !important;
+}
+
+/*.hentry .thumbnail-title {
+	font-family: 'Oswald', "Arial", sans-serif;
+	font-style: normal;
+	line-height: 39px;
+letter-spacing: -1px;
+}*/
+.entry-title,
+.entry-title a {
+	font-size: 20px;
+	font-family: 'Oswald', "Arial", sans-serif !important;
+	font-style: normal;
+	color: #444;
+}
+
+.entry-content,
+.entry-summary {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.single .format-aside .entry-content {
+	font-family: 'Oswald', "Arial", sans-serif;
+	font-style: normal;
+}
+
+.comment-content {
+	font-family: 'Oswald', "Arial", sans-serif;
+}
+
+.nocomments {
+	font-family: 'Oswald', "Arial", sans-serif;
+	font-style: normal;
+}
+
+.widget {
+	font-family: 'Oswald', "Arial", sans-serif;
+}
+
+/* Ausblenden von Punkten, die über Sharing-Buttons angezeigt werden */
+.quickshare-container ul li:before {
+	content: "";
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* =Comments einblenden
+----------------------------------------------- 
+
+#comments {
+display: block !important;
+}*/
+/*Ausblenden Pfeile - kann Probleme auf Startseite machen 
+#nav-below {
+  display: inline;
+}
+.single .nav-previous, .single .nav-next {
+	display: none;
+}*/
+/* Icons links*/
+.icons {
+	opacity: .4;
+	filter: alpha(opacity=40);
+/* For IE8 and earlier */
+	float: right;
+	margin: 2px;
+	margin-top: 20px;
+	padding: 1px !important;
+	border: none !important;
+	background: none !important;
+}
+
+.icons:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+/* For IE8 and earlier */
+}
+
+/* Menü links ausblenden, wenn Bildschirm zu schmal*/
+@media (max-width: 1024px) {
+	.Menuelinks {
+		display: none !important;
+	}
+}
+
+/*Position Menü links*/
+.Menuelinks {
+	left: 20px;
+	position: fixed;
+	top: 340px;
+}
+
+a {
+	color: #222;
+}
+
+.entry-content a {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #222;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #999;
+	text-decoration: none;
+}
+
+/*Schatten um Überschriften auf Startseite
+.hentry .thumbnail-title {text-shadow: -1px 0 grey, 0 1px grey,
+      1px 0 grey, 0 -1px grey;}*/
+/*Box mit Lob von Twitter in Fußzeile / Footer
+div.twitterlob {
+    width:300px; 
+    position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  font-family: Georgia;
+    font-size: 18px;
+    color: #444;
+    text-align:center;
+    line-height:20px;
+    text-transform:none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}*/
+.twitterlob a:link, 
+.twitterlob a:visited, 
+.twitterlob a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+/*Durchsichtigkeit Fußzeile / Footer
+.site-footer {
+opacity:.8;
+}
+
+.blog .hentry a:hover .attachment-home-post,
+.archive .hentry a:hover .attachment-home-post,
+.search .hentry a:hover .attachment-home-post {
+    filter: url("data:image/svg+xml;utf8,#grayscale");
+}
+
+.blog .hentry a .attachment-home-post,
+.archive .hentry a .attachment-home-post,
+.search .hentry a .attachment-home-post {
+    filter: none;
+}*/
+/* Autor Datum usw am Anfang des Beitrags ausblenden*/
+.entry-meta {
+	display: none !important;
+}
+
+.entry-footer {
+	display: none !important;
+}
+
+/* Slider Startseite kein Hintergrund*/
+.widget_weta_slider .centered-wrap .centered .overlay {
+	background: none;
+}
+
+/*Überschrift featured content*/
+#featured-content h2.entry-title a
+{
+	font-size: 200% !important;
+	color: #fff;
+	text-shadow: 0 0 5px black;
+	
+}
+
+/*Überschrift Einzelpost größer*/
+#primary h1.entry-title 
+{
+	font-size: 200% !important;
+	
+}
+
+
+
+
+/*Ausrichtung Footer*/
+#footer-two {
+	text-align: center;
+}
+
+#footer-one {
+	text-align: center;
+}
+
+#footer-five {
+	text-align: center;
+}
+
+#footer-four {
+	text-align: center;
+}
+
+#footer-three {
+	text-align: center;
+}
+
+/*richtige Darstellung Teilen-Symbole unter Posts*/
+li.quickshare-share {
+	padding-left: 1.5em !important;
+}
+
+/*Schriftgröße Zitat*/
+blockquote, blockquote p {
+	font-size: 1.1em !important;
+	margin-bottom: 14px;
+}
+
+/*Ausblenden des Featured Image im Archiv (Autorenseite) und auf Blogansicht*/
+.blog .entry-thumbnail {
+	display: none;
+}
+
+.archive .entry-thumbnail {
+	display: none;
+}
+
+/*Ausblenden der Icons links im Archiv (Autorenseite) */
+.archive .Menuelinks {
+	display: none;
+}
+
+.rss-widget-icon {
+	display: none;
+}
+
+/* Formatierung der Nummerierung bei numbered Posts*/
+.rp-numbered-wrap .post:before {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #444;
+}	
+
+/*Abstand zwischen Artikelende und nächstem, z.B. in Blogansicht */
+article {
+	padding-top: 30px;
+}	
+
+/*Anpassen des E-Mail-Mailchimp-Anmeldeformulars*/
+#mc_embed_signup .mc-field-group {
+	padding-bottom: 15px;
+}
+
+/*#mc_embed_signup div.mc-field-group label {
+	display: none;
+}*/
+
+#mc_embed_signup div.mc-field-group input {
+	border-style: solid;
+	width: 200px;
+}
+
+#mc_embed_signup input.button {
+	width: 200px;
+	background: #000;
+	border: none;
+	color: #fff;
+}
+
+#mc-embedded-subscribe-form {
+	padding: 30px;
+}
+
+#mc_embed_signup_scroll {
+	display: inline;
+	align-items: center;
+	justify-content: center;
+}
+
+#mc_embed_signup input.required {
+	border-bottom: 1px solid #a9a9a9 !important;
+}
+
+#mc_embed_signup input.button:hover {
+	background-color: darkgrey;
+}
+
+/*Cookiehinweis*/
+#cookiehinweis a {color:#000; text-decoration:none;}
+
+#cookiehinweis a:hover {text-decoration:underline;}
+
+#cookiehinweis div {padding:10px; padding-right:40px;}
+
+#cookiehinweis { 
+   outline: 1px solid #7b92a9; 
+   text-align:right; 
+   border-top:1px solid #fff;
+   background: #d6e0eb; 
+   background: -moz-linear-gradient(top, #d6e0eb 0%, #f2f6f9 100%); 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6e0eb), color-stop(100%,#f2f6f9)); 
+   background: -webkit-linear-gradient(top, #d6e0eb 0%,#f2f6f9 100%); 
+   background: -o-linear-gradient(top, #d6e0eb 0%,#f2f6f9 100%);
+   background: -ms-linear-gradient(top, #d6e0eb 0%,#f2f6f9 100%); 
+   background: linear-gradient(to bottom, #d6e0eb 0%,#f2f6f9 100%); 
+   filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#d6e0eb', endColorstr='#f2f6f9',GradientType=0 ); 
+   position:fixed;
+   bottom:0px; 
+   z-index:10000; 
+   width:100%; 
+   font-size:12px; 
+   line-height:16px;}
+
+#cookiehinweisCloser {
+   color: #777;
+   font: 14px/100% arial, sans-serif;
+   position: absolute;
+   right: 5px;
+   text-decoration: none;
+   text-shadow: 0 1px 0 #fff;
+   top: 5px;
+   cursor:pointer;
+   border-top:1px solid white; 
+   border-left:1px solid white; 
+   border-bottom:1px solid #7b92a9; 
+   border-right:1px solid #7b92a9; 
+   padding:4px;
+   background: #ced6df; /* Old browsers */
+   background: -moz-linear-gradient(top, #ced6df0%, #f2f6f9 100%); 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ced6df), color-stop(100%,#f2f6f9)); 
+   background: -webkit-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: -o-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: -ms-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: linear-gradient(to bottom, #ced6df0%,#f2f6f9 100%); 
+   filter: progid:DXImageTransform.Microsoft.gradient(    startColorstr='#ced6df', endColorstr='#f2f6f9',GradientType=0 ); 
+ }
+
+#cookiehinweisCloser:hover {border-bottom:1px solid white; border-right:1px solid white; border-top:1px solid #7b92a9; border-left:1px solid #7b92a9;}
+
+/*Zitate besser darstellen*/
+h5 {
+	padding: 0px 5px 14px 0px;
+}
+
+/*Formatierung für Fußballthesen*/
+.thesenabsatz { 
+text-align: center !important; 
+margin-top: -25px !important;
+}
+
+.thesentwitterbutton { 
+border-radius: 5px 5px 5px; 
+border: 1px solid gray; 
+padding: 3px;
+}
+
+.thesentwitterbutton a { 
+text-decoration: none !important;
+	color: #555 !important;
+}
+
+.thesentwitterbutton :hover { 
+color: #4099FF !important;
+}
+
+.thesenzustimmungbutton { 
+border-radius: 5px 5px 5px; 
+border: 1px solid gray; 
+padding: 3px;
+}
+
+.thesenzustimmungbutton a { 
+text-decoration: none !important;
+	color: #555 !important;
+}
+
+.thesenzustimmungbutton :hover { 
+color: #54c493 !important;
+}
+
+.thesendagegenbutton { 
+border-radius: 5px 5px 5px; 
+border: 1px solid gray; 
+padding: 3px;
+}
+
+.thesendagegenbutton a { 
+text-decoration: none !important;
+	color: #555 !important;
+}
+
+.thesendagegenbutton :hover { 
+color: #e25356 !important;
+}
+
+.thesenwabutton { 
+border-radius: 5px 5px 5px; 
+border: 1px solid gray; 
+padding: 3px;
+}
+
+.thesenwabutton a { 
+text-decoration: none !important;
+color: #555 !important;
+}
+
+.thesenwabutton :hover { 
+color: #009933 !important;
+}
+
+
+.thesenfbbutton { 
+border-radius: 5px 5px 5px; 
+border: 1px solid gray; 
+padding: 3px;
+}
+
+.thesenfbbutton a { 
+text-decoration: none !important;
+color: #555 !important;
+}
+
+.thesenfbbutton :hover { 
+color: #3B5998 !important;
+}
+@media only screen and (max-width: 350px) {
+  .thesenabsatz {
+    visibility: hidden;
+	}
+}
+
+/*Kein Aufz zeichen bei Widgets auf Longread-Übersichtsseite*/
+.entry-content ul li:before {
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    padding: 0;
+}
+
+/*Bilder und Elemente auf voller Breite und nur ab 1100px Fenstergröße darstellen*/
+.wide-content {
+    margin-left: calc(-50vw + 330px);
+    margin-right: calc(-50vw + 330px);
+    width: 100vw;
+}
+
+@media (max-width: 1100px) {                  
+   .wide-content {
+      display: none;
+   }
+}
+/*WM Kram
+@media (max-width: 800px) {                  
+   .wide-contentwm {
+      margin-left: calc(-4vw + 330px);
+    margin-right: calc(-4vw + 330px);
+    width: 90vw;
+   }
+}
+.wide-contentwm {
+    margin-left: calc(-40vw + 330px);
+    margin-right: calc(-40vw + 330px);
+    width: 80vw;
+}*/
+@media (max-width: 600px) {   
+.teamnamen span {
+	display: none;
+ }
+}
+@media (max-width: 600px) {   
+.teamnamen {
+	text-align: center;
+ }
+}
+@media (max-width: 600px) {   
+.gruppennamen {
+	text-align: center;
+ }
+}
+
+.tabellezellewm { 
+    width: 50%; 
+	padding: 15px 15px 10px 10px;
+	text-align: center;
+	border: 1px;
+}
+.teamnamen {
+	padding: 0 0 0 0; 
+	line-height: 1;
+	font-size: 2.4em;
+}
+.gruppennamen {
+	padding: 0 0 0 0; 
+	line-height: 1;	
+}
+
+.wmtablinks {
+	text-decoration: none !important;
+}
+
+/*
+playback timings (ms):
+  captures_list: 599.966
+  exclusion.robots: 0.069
+  exclusion.robots.policy: 0.064
+  RedisCDXSource: 16.982
+  esindex: 0.008
+  LoadShardBlock: 560.165 (3)
+  PetaboxLoader3.datanode: 491.633 (4)
+  CDXLines.iter: 19.826 (3)
+  load_resource: 159.804
+  PetaboxLoader3.resolve: 33.927
+*/

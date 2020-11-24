@@ -1,0 +1,23 @@
+#subscribe-email input {
+	width: 95%;
+	padding: 1px 2px;
+}
+
+.comment-subscription-form .subscribe-label {
+	display: inline !important;
+}
+
+
+/*
+playback timings (ms):
+  esindex: 0.014
+  load_resource: 164.925
+  captures_list: 1676.448
+  LoadShardBlock: 1608.078 (3)
+  PetaboxLoader3.datanode: 1505.548 (4)
+  exclusion.robots: 0.177
+  CDXLines.iter: 28.234 (3)
+  RedisCDXSource: 32.71
+  exclusion.robots.policy: 0.164
+  PetaboxLoader3.resolve: 51.285
+*/
